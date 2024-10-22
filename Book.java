@@ -28,8 +28,7 @@ class Main {
         Scanner sc = new Scanner(System.in);
         String name, author, choice;
         double price;
-        int num_pages;
-        int n;
+        int num_pages, n;
 
         System.out.print("Enter the number of books : ");
         n = sc.nextInt();
