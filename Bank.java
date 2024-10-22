@@ -41,9 +41,9 @@ class Bank{
 			userchoice = sc.nextInt();
 			
 			if(userchoice < 1 || userchoice > 15){
-			
 				System.out.println("Invalid choice!");
 				continue;
+				
 			} else {
 				while(true){
 			
