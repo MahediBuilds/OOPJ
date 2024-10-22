@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 class Student {
-    String usn, name;
+    String usn; 
+    String name;
     int[] sem1Credits;
     int[] sem1Marks;
     int[] sem2Credits;
