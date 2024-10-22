@@ -22,6 +22,7 @@ class Student {
         numSubjectsSem1 = sc.nextInt();
         sem1Credits = new int[numSubjectsSem1];
         sem1Marks = new int[numSubjectsSem1];
+        
         for (int i = 0; i < numSubjectsSem1; i++) {
             System.out.print("Enter credits for subject " + (i + 1) + " in sem 1: ");
             sem1Credits[i] = sc.nextInt();
@@ -34,6 +35,7 @@ class Student {
         numSubjectsSem2 = sc.nextInt();
         sem2Credits = new int[numSubjectsSem2];
         sem2Marks = new int[numSubjectsSem2];
+        
         for (int i = 0; i < numSubjectsSem2; i++) {
             System.out.print("Enter credits for subject " + (i + 1) + " in sem 2: ");
             sem2Credits[i] = sc.nextInt();
