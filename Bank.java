@@ -81,11 +81,8 @@ class Bank{
 					if(choice == 4)
 						break;	
 				}
-			}
-			
+			}	
 		}
-		
 	}	
-
 }
 
