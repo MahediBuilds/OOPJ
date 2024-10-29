@@ -67,8 +67,6 @@ class Bank{
 							break;
 						case 3:
 							System.out.println("Your balance : " + bank[userchoice].getBalance());
-							cash = sc.nextInt();
-							bank[userchoice-1].deposit(cash);
 							break;
 						case 4:
 							break;
