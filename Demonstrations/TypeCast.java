@@ -13,5 +13,7 @@ class TypeCast {
     double dnum2 = sc.nextDouble();
     int inum2 = (int) dnum2;
     System.out.println("Explicit conversion: " + inum2);
+
+    sc.close();
   }
 }

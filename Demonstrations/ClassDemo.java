@@ -11,15 +11,17 @@ class Main {
     System.out.print("Enter car manufacturing year: ");
     myCar.carYear = sc.nextInt();
     System.out.println("\nThe Car details are :-");
-    System.out.println(
-        myCar.carName + "\t" + myCar.carModel + "\t" + myCar.carYear + "\t");
+    System.out.println(myCar.carName + "\t" + myCar.carModel + "\t" + myCar.carYear + "\t");
     myCar.drive();
+    sc.close();
   }
 }
+
 class Car {
   String carName;
   String carModel;
   int carYear;
+
   void drive() {
     System.out.println("The car is driving ");
   }
