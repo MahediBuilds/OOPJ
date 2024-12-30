@@ -4,5 +4,10 @@
   "editor.formatOnPaste": true,
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
-  }
+  },
+  "codesnap.containerPadding": "0em",
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0) ",
+  "codesnap.showLineNumbers": false,
+  "codesnap.showWindowControls": false,
+  "codesnap.transparentBackground": true
 }
