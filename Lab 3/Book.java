@@ -37,7 +37,7 @@ class Main {
         Book[] books = new Book[n];
 
         for (int i = 0; i < n; i++) {
-            System.out.println("\nBook " + (i + 1) + ":" );
+            System.out.println("\nBook " + (i + 1) + ":");
             System.out.print("Name : ");
             name = sc.nextLine();
             System.out.print("Author : ");
@@ -51,22 +51,23 @@ class Main {
             books[i] = new Book(name, author, price, num_pages);
         }
 
-        {
-            System.out.print("Enter name of book to search :");
-            choice = sc.nextLine();
+        System.out.print("Enter name of book to search :");
+        choice = sc.nextLine();
 
-            boolean found = false;
-            for (int i = 0; i < n; i++) {
-                if (books[i].getName().equalsIgnoreCase(choice)) {
-                    System.out.println(books[i].toString());
-                    found = true;
-                    break;
-                }
-            }
-
-            if (!found) {
-                System.out.println("Book not found!");
+        boolean found = false;
+        for (int i = 0; i < n; i++) {
+            if (books[i].getName().equalsIgnoreCase(choice)) {
+                System.out.println(books[i].toString());
+                found = true;
+                break;
             }
         }
+
+        if (!found) {
+            System.out.println("Book not found!");
+        }
+
+        sc.close();
+
     }
 }

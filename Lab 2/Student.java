@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Student {
-    String usn; 
+    String usn;
     String name;
     int[] sem1Credits;
     int[] sem1Marks;
@@ -22,7 +22,7 @@ class Student {
         numSubjectsSem1 = sc.nextInt();
         sem1Credits = new int[numSubjectsSem1];
         sem1Marks = new int[numSubjectsSem1];
-        
+
         for (int i = 0; i < numSubjectsSem1; i++) {
             System.out.print("Enter credits for subject " + (i + 1) + " in sem 1: ");
             sem1Credits[i] = sc.nextInt();
@@ -35,13 +35,15 @@ class Student {
         numSubjectsSem2 = sc.nextInt();
         sem2Credits = new int[numSubjectsSem2];
         sem2Marks = new int[numSubjectsSem2];
-        
+
         for (int i = 0; i < numSubjectsSem2; i++) {
             System.out.print("Enter credits for subject " + (i + 1) + " in sem 2: ");
             sem2Credits[i] = sc.nextInt();
             System.out.print("Enter marks for subject " + (i + 1) + " in sem 2: ");
             sem2Marks[i] = sc.nextInt();
         }
+
+        sc.close();
     }
 
     void displayDetails() {
@@ -85,13 +87,20 @@ class Student {
     }
 
     int calculateGradePoint(int marks) {
-        if (marks >= 90) return 10; // O grade
-        else if (marks >= 80) return 9; // A grade
-        else if (marks >= 70) return 8; // B grade
-        else if (marks >= 60) return 7; // C grade
-        else if (marks >= 50) return 6; // D grade
-        else if (marks >= 40) return 4; // P grade
-        else return 0;
+        if (marks >= 90)
+            return 10; // O grade
+        else if (marks >= 80)
+            return 9; // A grade
+        else if (marks >= 70)
+            return 8; // B grade
+        else if (marks >= 60)
+            return 7; // C grade
+        else if (marks >= 50)
+            return 6; // D grade
+        else if (marks >= 40)
+            return 4; // P grade
+        else
+            return 0;
     }
 
     public static void main(String[] args) {
