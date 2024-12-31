@@ -22,8 +22,7 @@ class MyThread extends Thread {
 
 class Main {
     public static void main(String[] args) {
-        MyThread thread1 = new MyThread("BMS College of Engineering",
-                10);
+        MyThread thread1 = new MyThread("BMS College of Engineering", 10);
         MyThread thread2 = new MyThread("CSE", 2);
         thread1.start();
         thread2.start();
