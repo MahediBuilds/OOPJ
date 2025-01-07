@@ -96,12 +96,6 @@ Follow these steps to set up and run the project:
 
 ---
 
-## Contributing
-
-Contributions are welcome! If you have improvements or additional examples to share, please fork the repository and submit a pull request.
-
----
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code.
