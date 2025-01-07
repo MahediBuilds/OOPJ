@@ -1,7 +1,6 @@
 # Java Programming Demonstrations and Labs
 
-This repository contains a collection of Java programming demonstrations and lab exercises. It is designed to help learners understand key Java concepts through practical examples and structured lab activities.
-
+This repository contains a collection of Java programming demonstrations and lab exercises.
 ---
 
 ## Project Structure
